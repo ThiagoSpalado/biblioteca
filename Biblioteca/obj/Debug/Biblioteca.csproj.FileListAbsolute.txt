@@ -1,0 +1,9 @@
+C:\Users\Thiago\Documents\Visual Studio 2012\Projects\Biblioteca\Biblioteca\bin\Debug\Biblioteca.exe.config
+C:\Users\Thiago\Documents\Visual Studio 2012\Projects\Biblioteca\Biblioteca\obj\Debug\Biblioteca.csprojResolveAssemblyReference.cache
+C:\Users\Thiago\Documents\Visual Studio 2012\Projects\Biblioteca\Biblioteca\obj\Debug\Biblioteca.Form1.resources
+C:\Users\Thiago\Documents\Visual Studio 2012\Projects\Biblioteca\Biblioteca\obj\Debug\Biblioteca.Properties.Resources.resources
+C:\Users\Thiago\Documents\Visual Studio 2012\Projects\Biblioteca\Biblioteca\obj\Debug\Biblioteca.csproj.GenerateResource.Cache
+C:\Users\Thiago\Documents\Visual Studio 2012\Projects\Biblioteca\Biblioteca\bin\Debug\Biblioteca.exe
+C:\Users\Thiago\Documents\Visual Studio 2012\Projects\Biblioteca\Biblioteca\bin\Debug\Biblioteca.pdb
+C:\Users\Thiago\Documents\Visual Studio 2012\Projects\Biblioteca\Biblioteca\obj\Debug\Biblioteca.exe
+C:\Users\Thiago\Documents\Visual Studio 2012\Projects\Biblioteca\Biblioteca\obj\Debug\Biblioteca.pdb
