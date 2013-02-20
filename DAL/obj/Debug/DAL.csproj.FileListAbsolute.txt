@@ -3,3 +3,8 @@ C:\Users\Thiago\Desktop\Thiago\Manager\biblioteca\DAL\bin\Debug\DAL.pdb
 C:\Users\Thiago\Desktop\Thiago\Manager\biblioteca\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
 C:\Users\Thiago\Desktop\Thiago\Manager\biblioteca\DAL\obj\Debug\DAL.dll
 C:\Users\Thiago\Desktop\Thiago\Manager\biblioteca\DAL\obj\Debug\DAL.pdb
+C:\VtexGit\biblioteca\DAL\bin\Debug\DAL.dll
+C:\VtexGit\biblioteca\DAL\bin\Debug\DAL.pdb
+C:\VtexGit\biblioteca\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\VtexGit\biblioteca\DAL\obj\Debug\DAL.dll
+C:\VtexGit\biblioteca\DAL\obj\Debug\DAL.pdb
