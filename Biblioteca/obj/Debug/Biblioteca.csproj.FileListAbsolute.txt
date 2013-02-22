@@ -25,3 +25,5 @@ C:\VtexGit\biblioteca\Biblioteca\obj\Debug\Biblioteca.csprojResolveAssemblyRefer
 C:\VtexGit\biblioteca\Biblioteca\obj\Debug\Biblioteca.Form1.resources
 C:\VtexGit\biblioteca\Biblioteca\obj\Debug\Biblioteca.Properties.Resources.resources
 C:\VtexGit\biblioteca\Biblioteca\obj\Debug\Biblioteca.csproj.GenerateResource.Cache
+C:\VtexGit\biblioteca\Biblioteca\obj\Debug\Biblioteca.Biblioteca.CadastrarLivro.resources
+C:\VtexGit\biblioteca\Biblioteca\obj\Debug\Biblioteca.Biblioteca.EditarLivro.resources

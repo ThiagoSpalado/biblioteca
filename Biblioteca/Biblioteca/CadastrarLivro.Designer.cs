@@ -33,9 +33,6 @@
             this.txtGenero = new System.Windows.Forms.TextBox();
             this.lblPaginas = new System.Windows.Forms.Label();
             this.txtPaginas = new System.Windows.Forms.TextBox();
-            this.rbtIndisponivel = new System.Windows.Forms.RadioButton();
-            this.rbtDisponivel = new System.Windows.Forms.RadioButton();
-            this.lblStatus = new System.Windows.Forms.Label();
             this.lblEditora = new System.Windows.Forms.Label();
             this.lblGenero = new System.Windows.Forms.Label();
             this.lblAno = new System.Windows.Forms.Label();
@@ -48,81 +45,48 @@
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // txtEditora
             // 
-            this.txtEditora.Location = new System.Drawing.Point(226, 186);
+            this.txtEditora.Location = new System.Drawing.Point(449, 145);
             this.txtEditora.Name = "txtEditora";
-            this.txtEditora.Size = new System.Drawing.Size(260, 20);
+            this.txtEditora.Size = new System.Drawing.Size(117, 20);
             this.txtEditora.TabIndex = 47;
             // 
             // txtGenero
             // 
-            this.txtGenero.Location = new System.Drawing.Point(226, 154);
+            this.txtGenero.Location = new System.Drawing.Point(218, 146);
             this.txtGenero.Name = "txtGenero";
-            this.txtGenero.Size = new System.Drawing.Size(260, 20);
+            this.txtGenero.Size = new System.Drawing.Size(117, 20);
             this.txtGenero.TabIndex = 46;
             // 
             // lblPaginas
             // 
             this.lblPaginas.AutoSize = true;
             this.lblPaginas.Font = new System.Drawing.Font("Arial", 12F);
-            this.lblPaginas.Location = new System.Drawing.Point(335, 123);
+            this.lblPaginas.Location = new System.Drawing.Point(304, 114);
             this.lblPaginas.Name = "lblPaginas";
-            this.lblPaginas.Size = new System.Drawing.Size(152, 18);
+            this.lblPaginas.Size = new System.Drawing.Size(70, 18);
             this.lblPaginas.TabIndex = 45;
-            this.lblPaginas.Text = "Número de Páginas:";
+            this.lblPaginas.Text = "Páginas:";
             // 
             // txtPaginas
             // 
-            this.txtPaginas.Location = new System.Drawing.Point(514, 123);
+            this.txtPaginas.Location = new System.Drawing.Point(380, 115);
             this.txtPaginas.MaxLength = 4;
             this.txtPaginas.Name = "txtPaginas";
             this.txtPaginas.Size = new System.Drawing.Size(60, 20);
             this.txtPaginas.TabIndex = 44;
             // 
-            // rbtIndisponivel
-            // 
-            this.rbtIndisponivel.AutoSize = true;
-            this.rbtIndisponivel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbtIndisponivel.Location = new System.Drawing.Point(308, 220);
-            this.rbtIndisponivel.Name = "rbtIndisponivel";
-            this.rbtIndisponivel.Size = new System.Drawing.Size(83, 17);
-            this.rbtIndisponivel.TabIndex = 42;
-            this.rbtIndisponivel.Text = "Indisponível";
-            this.rbtIndisponivel.UseVisualStyleBackColor = true;
-            // 
-            // rbtDisponivel
-            // 
-            this.rbtDisponivel.AutoSize = true;
-            this.rbtDisponivel.Checked = true;
-            this.rbtDisponivel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbtDisponivel.Location = new System.Drawing.Point(226, 220);
-            this.rbtDisponivel.Name = "rbtDisponivel";
-            this.rbtDisponivel.Size = new System.Drawing.Size(76, 17);
-            this.rbtDisponivel.TabIndex = 43;
-            this.rbtDisponivel.TabStop = true;
-            this.rbtDisponivel.Text = "Disponível";
-            this.rbtDisponivel.UseVisualStyleBackColor = true;
-            // 
-            // lblStatus
-            // 
-            this.lblStatus.AutoSize = true;
-            this.lblStatus.Font = new System.Drawing.Font("Arial", 12F);
-            this.lblStatus.Location = new System.Drawing.Point(81, 220);
-            this.lblStatus.Name = "lblStatus";
-            this.lblStatus.Size = new System.Drawing.Size(56, 18);
-            this.lblStatus.TabIndex = 39;
-            this.lblStatus.Text = "Status:";
-            // 
             // lblEditora
             // 
             this.lblEditora.AutoSize = true;
             this.lblEditora.Font = new System.Drawing.Font("Arial", 12F);
-            this.lblEditora.Location = new System.Drawing.Point(81, 186);
+            this.lblEditora.Location = new System.Drawing.Point(380, 145);
             this.lblEditora.Name = "lblEditora";
             this.lblEditora.Size = new System.Drawing.Size(63, 18);
             this.lblEditora.TabIndex = 38;
@@ -132,7 +96,7 @@
             // 
             this.lblGenero.AutoSize = true;
             this.lblGenero.Font = new System.Drawing.Font("Arial", 12F);
-            this.lblGenero.Location = new System.Drawing.Point(82, 154);
+            this.lblGenero.Location = new System.Drawing.Point(74, 145);
             this.lblGenero.Name = "lblGenero";
             this.lblGenero.Size = new System.Drawing.Size(64, 18);
             this.lblGenero.TabIndex = 41;
@@ -142,7 +106,7 @@
             // 
             this.lblAno.AutoSize = true;
             this.lblAno.Font = new System.Drawing.Font("Arial", 12F);
-            this.lblAno.Location = new System.Drawing.Point(82, 123);
+            this.lblAno.Location = new System.Drawing.Point(74, 114);
             this.lblAno.Name = "lblAno";
             this.lblAno.Size = new System.Drawing.Size(40, 18);
             this.lblAno.TabIndex = 40;
@@ -150,7 +114,7 @@
             // 
             // txtAno
             // 
-            this.txtAno.Location = new System.Drawing.Point(226, 123);
+            this.txtAno.Location = new System.Drawing.Point(218, 114);
             this.txtAno.MaxLength = 4;
             this.txtAno.Name = "txtAno";
             this.txtAno.Size = new System.Drawing.Size(60, 20);
@@ -160,7 +124,7 @@
             // 
             this.lblAutor.AutoSize = true;
             this.lblAutor.Font = new System.Drawing.Font("Arial", 12F);
-            this.lblAutor.Location = new System.Drawing.Point(82, 92);
+            this.lblAutor.Location = new System.Drawing.Point(74, 83);
             this.lblAutor.Name = "lblAutor";
             this.lblAutor.Size = new System.Drawing.Size(49, 18);
             this.lblAutor.TabIndex = 36;
@@ -168,7 +132,7 @@
             // 
             // txtAutor
             // 
-            this.txtAutor.Location = new System.Drawing.Point(226, 92);
+            this.txtAutor.Location = new System.Drawing.Point(218, 83);
             this.txtAutor.Name = "txtAutor";
             this.txtAutor.Size = new System.Drawing.Size(348, 20);
             this.txtAutor.TabIndex = 35;
@@ -177,17 +141,17 @@
             // 
             this.lblMensagem.AutoSize = true;
             this.lblMensagem.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMensagem.Location = new System.Drawing.Point(109, 20);
+            this.lblMensagem.Location = new System.Drawing.Point(73, 18);
             this.lblMensagem.Name = "lblMensagem";
-            this.lblMensagem.Size = new System.Drawing.Size(465, 19);
+            this.lblMensagem.Size = new System.Drawing.Size(514, 19);
             this.lblMensagem.TabIndex = 33;
-            this.lblMensagem.Text = "Preencha os dados corretamente  e clique em Gravar Dados";
+            this.lblMensagem.Text = "Preencha os dados corretamente  e clique no disquete para gravar";
             // 
             // lblNomeLivro
             // 
             this.lblNomeLivro.AutoSize = true;
             this.lblNomeLivro.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNomeLivro.Location = new System.Drawing.Point(82, 61);
+            this.lblNomeLivro.Location = new System.Drawing.Point(74, 52);
             this.lblNomeLivro.Name = "lblNomeLivro";
             this.lblNomeLivro.Size = new System.Drawing.Size(114, 18);
             this.lblNomeLivro.TabIndex = 34;
@@ -195,22 +159,23 @@
             // 
             // txtNomeLivro
             // 
-            this.txtNomeLivro.Location = new System.Drawing.Point(226, 60);
+            this.txtNomeLivro.Location = new System.Drawing.Point(218, 51);
             this.txtNomeLivro.Name = "txtNomeLivro";
             this.txtNomeLivro.Size = new System.Drawing.Size(348, 20);
             this.txtNomeLivro.TabIndex = 32;
             // 
             // toolStrip1
             // 
+            this.toolStrip1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.toolStrip1.Dock = System.Windows.Forms.DockStyle.Left;
             this.toolStrip1.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripButton1,
             this.toolStripButton2,
-            this.toolStripButton3});
+            this.toolStripButton4});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(62, 276);
+            this.toolStrip1.Size = new System.Drawing.Size(62, 197);
             this.toolStrip1.TabIndex = 48;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -234,29 +199,39 @@
             this.toolStripButton2.Size = new System.Drawing.Size(59, 58);
             this.toolStripButton2.Text = "toolStripButton2";
             // 
-            // toolStripButton3
+            // checkBox1
             // 
-            this.toolStripButton3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton3.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton3.Image")));
-            this.toolStripButton3.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.toolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton3.Name = "toolStripButton3";
-            this.toolStripButton3.Size = new System.Drawing.Size(59, 52);
-            this.toolStripButton3.Text = "toolStripButton3";
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox1.Location = new System.Drawing.Point(475, 112);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(91, 24);
+            this.checkBox1.TabIndex = 49;
+            this.checkBox1.Text = "Disponível";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // toolStripButton4
+            // 
+            this.toolStripButton4.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton4.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton4.Image")));
+            this.toolStripButton4.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.toolStripButton4.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton4.Name = "toolStripButton4";
+            this.toolStripButton4.Size = new System.Drawing.Size(59, 52);
+            this.toolStripButton4.Text = "toolStripButton4";
             // 
             // CadastrarLivro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(634, 276);
+            this.ClientSize = new System.Drawing.Size(599, 197);
+            this.ControlBox = false;
+            this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.txtEditora);
             this.Controls.Add(this.txtGenero);
             this.Controls.Add(this.lblPaginas);
             this.Controls.Add(this.txtPaginas);
-            this.Controls.Add(this.rbtIndisponivel);
-            this.Controls.Add(this.rbtDisponivel);
-            this.Controls.Add(this.lblStatus);
             this.Controls.Add(this.lblEditora);
             this.Controls.Add(this.lblGenero);
             this.Controls.Add(this.lblAno);
@@ -281,9 +256,6 @@
         private System.Windows.Forms.TextBox txtGenero;
         private System.Windows.Forms.Label lblPaginas;
         private System.Windows.Forms.TextBox txtPaginas;
-        private System.Windows.Forms.RadioButton rbtIndisponivel;
-        private System.Windows.Forms.RadioButton rbtDisponivel;
-        private System.Windows.Forms.Label lblStatus;
         private System.Windows.Forms.Label lblEditora;
         private System.Windows.Forms.Label lblGenero;
         private System.Windows.Forms.Label lblAno;
@@ -296,6 +268,7 @@
         private System.Windows.Forms.ToolStrip toolStrip1;
         private System.Windows.Forms.ToolStripButton toolStripButton1;
         private System.Windows.Forms.ToolStripButton toolStripButton2;
-        private System.Windows.Forms.ToolStripButton toolStripButton3;
+        private System.Windows.Forms.ToolStripButton toolStripButton4;
+        private System.Windows.Forms.CheckBox checkBox1;
     }
 }
